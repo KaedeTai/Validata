@@ -1,0 +1,7 @@
+__include: general.yaml
+all: (?u)^(?P<term>[\w\s]+)\t(?P<_class>\w+)\x01(?P<attr>.*)$
+attr:
+  - ?(?P<key>\w)\x03(i|s)\x03[^\x02]+
+  - (^|\x02)lang\x03s\x03(?P<_lang>[^\x02]+)
+key: ^[a-z-_.]+$
+term: $text
