@@ -1,0 +1,7 @@
+__logfile: history.log
+__notify: kaede@yahoo-inc.com
+__size:
+    valid: 2%
+    alert: 5%
+yk_movie: ^[^\x00-\x1f]+\t[^\x00-\x1f]+\t([0-9]+|no_tw_movie_id@@)$
+tw_movie: ^[^\x00-\x1f]+\t\t\t\t[^\x00-\x1f]+\t[^\x00-\x1f]+\t[0-9]+$
