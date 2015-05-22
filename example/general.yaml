@@ -1,8 +1,0 @@
-__include:
-  - class.yaml
-  - lang.yaml
-_lang:
-  - 中文
-  - 英文
-  - 日文
-text: ^[^\x00-\x1f]+$
