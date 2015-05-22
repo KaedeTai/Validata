@@ -408,7 +408,7 @@ class Validata:
         #upload result
         log = {'filename': filename, 'version': self.version, 'size': size, 'delta': delta, 'error': error}
         try:
-            urlopen(__HISTORY_LOG__, urlencode(log)).read()
+            urlopen(__HISTORY_API__, urlencode(log)).read()
         except Exception as e:
             pass #todo
         return error == 0 and delta ** 2 <= 1
@@ -436,6 +436,6 @@ if __name__ == "__main__":
         else:
             print 'File "%s" is invalid.' % filename
             failed = True
-        print 'History log is in %s?%s' % (__HISTORY_API__, urlencode({'filename': filename}))
+        print 'History log is in %s?%s' % (__HISTORY_LOG__, urlencode({'filename': filename}))
     if failed:
         exit('Validation failed!')
