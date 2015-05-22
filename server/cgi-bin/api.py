@@ -1,4 +1,4 @@
-#!/home/y/bin64/python2.7
+#!/usr/bin/python
 from cgi import FieldStorage
 from socket import gethostname
 import sys

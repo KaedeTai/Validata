@@ -12,7 +12,6 @@ db = MySQLdb.connect(user='root', db='validata')
 cur = db.cursor()
 
 filename = argv['filename'].value
-#filename = 'qlas_data/tw/tmp/base-movie'
 sql = 'SELECT version, size, delta, error FROM log WHERE filename=%s'
 cur.execute(sql, (filename, ))
 print 'Version\t\t\tSize\tDelta\tError'
