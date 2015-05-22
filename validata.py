@@ -21,7 +21,7 @@ validata.check_file(filename)
 __VALIDATA_ROOT__ = '/usr/local/validata'
 __VALIDATA_ETC__ = __VALIDATA_ROOT__ + '/etc'
 __HISTORY_LOG__ = 'http://54.186.241.214/history.html'
-__HISTORY_API__ = 'http://54.186.241.214/cgi-bin/history.py'
+__HISTORY_API__ = 'http://54.186.241.214/cgi-bin/api.py'
 
 #import libraries
 import re
