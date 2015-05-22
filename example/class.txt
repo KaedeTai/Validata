@@ -1,4 +1,0 @@
-media_title
-person_name
-organization_name
-
