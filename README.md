@@ -1,7 +1,7 @@
 Validata
 ========
 Validata is designed for line-based data pipeline or general purpose data validation.
-For more information please contact kaede@yahoo-inc.com.
+For more information please contact kaedetai@gmail.com.
 
 Usage:
 
