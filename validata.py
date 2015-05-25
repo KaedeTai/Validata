@@ -8,13 +8,13 @@ For more information please contact kaedetai@gmail.com.
 
 Usage:
 
-python validata.py config.yaml datafile.ext [...]
+python validata.py config.yaml data.txt [...]
 
   or
 
 from validata import *
 validata = Validata('config.yaml')
-validata.check_file(filename)
+validata.check_file('data.txt')
 """
 
 #define constants
