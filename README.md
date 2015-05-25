@@ -5,7 +5,7 @@ For more information please contact kaedetai@gmail.com.
 
 Usage:
 
-    $ python validata.py config.yaml datafile.ext [...]
+    $ python validata.py config.yaml data.txt [...]
 
 or
 
