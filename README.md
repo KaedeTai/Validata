@@ -35,6 +35,10 @@ Split by pattern and validate each part
       by: (\t|,)
       as: (?P<key>\w+)=(?P<value>\w+)
 
+Ensure a value is expected
+
+    _class: class.txt
+
 Count the number of a value
 
     key:
