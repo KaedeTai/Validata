@@ -1,0 +1,3 @@
+馬友友	person_name	type=musician,lang=中文
+劉德華	person_name	type=musician,type=actor,type=director,lang=中文
+Steve Jobs	person_name	type=god,lang=english

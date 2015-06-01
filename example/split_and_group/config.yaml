@@ -1,0 +1,13 @@
+all: ^[^\t]+\t(?P<class>\w+)\t(?P<attr>.*)$
+class:
+  group: class
+attr:
+  split:
+    by: ","
+    as:
+    - ^(?P<_people_attr>[\w:]+)=
+    - ?^taxonomy:notability_category="(?P<taxonomy>.+)"$
+_people_attr: people_attr.txt
+taxonomy:
+  count: taxonomy
+  group: taxonomy
